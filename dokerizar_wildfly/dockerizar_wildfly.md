@@ -7,7 +7,7 @@
 
 Con Doker aparte de lanzar contenedores usando imágenes del repositorio de Dokcer, Docker Hub, podemos crear nuestras propias imagenes para luego lanzar un contenedores totalmente personalizados.
 
-En esta guía vamos a ver como crear una imagen personalizada a partir de la imagen de WildFly que realizamos en el anterior ejemplo WildFly en Docker .
+En esta guía vamos a ver como crear una imagen personalizada a partir de la imagen de WildFly que realizamos en el anterior ejemplo [WildFly en Docker](https://github.com/lawd17/docker/blob/main/instalacion_wildfly_docker/instalacion_wildfly_docker.md).
 
 ## 2. Fichero dockerfile.
 Para crear una imagen personalizada vamos a crear una carpeta de trabajo y en ella vamos a configurar un fichero Dockerfile donde añadiremos la configuraciones que queremos que tenga nuestra imagen.
