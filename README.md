@@ -10,3 +10,6 @@ Repositorio que se va a usar para ver como Instalar y trabajar con Docker.
 
 ## 4 [Guía 04 - Clusterizando App en WildFly](clusterizando_app_wildfly/clusterizando_app_wildfly.md)
 
+## 5 [Guía 05 - Infraestructura LAMP con Docker](infraestructura_LAMP_docker/infraestructura_LAMP_docker.md)
+
+

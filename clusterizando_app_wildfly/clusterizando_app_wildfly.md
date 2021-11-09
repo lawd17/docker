@@ -1,5 +1,5 @@
 
-# WildFly en Docker
+# Clustterizando un App con WildFly
 
 ![docker-wildfly1](capturas/docker-wildfly1.png)
 
@@ -65,7 +65,13 @@ Paramos de ejecutar la aplicación.
 ## 3. Clusterizando con Docker.
 Primero se necesitaría crear un fichero Dockerfile que es que se usara para crear las imágenes de cada contenedor que despleguemos. En este caso el fichero Dockerfile viene con la aplicación y como se puede ver se esta copiando el fichero .war dentro de **deployments** y posteriormente se realiza el arranque en cluster.
 
+![16-dockerfile](capturas/16-dockerfile.png)
+
+
 Ahora toca crear el fichero **docker-compose.yml** para construir el cluster. Vemos crear creamos dos servidores (wildlfy1 y wildfly2) con distintos puertos y todos esto en la misma subred (wildfly_network).
+
+![17-dockerfile-compose](capturas/17-dockerfile-compose.png)
+
 
 Con esto, para poder crear el cluster lanzamos el siguiente comando:
 ```
