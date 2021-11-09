@@ -11,24 +11,24 @@ La mejor forma de realizar el despliegue en cluster, es usando la tecnología Do
 ## 2. Construcción.
 Primero vamos a preparar la aplicación que vamos a ejecutar en nuestro servidor para ello descargamos el [proyecto](https://github.com/jpexposito/docencia/tree/master/COMUN/ejemplos/java/app-web-demo) y lo modificamos.
 
-![01-descargar-proyecto](01-descargar-proyecto.png)
+![01-descargar-proyecto](capturas/01-descargar-proyecto.png)
 
 
 Cambiar en el **web.xml**, sustituyendo **nombre** por el nombre del que lo este realizando.
 ```
 <display-name>app-web-nombre</display-name>  
 ```
-![04-modificar-web](04-modificar-web.png)
+![04-modificar-web](capturas/04-modificar-web.png)
 
 
 Realizar lo mismo en el **pom.xml**.
 
-![02-modificar-pom](02-modificar-pom.png)
+![02-modificar-pom](capturas/02-modificar-pom.png)
 
 
 Y en el **index.jsp**.
 
-![03-modificar-index](03-modificar-index.png)
+![03-modificar-index](capturas/03-modificar-index.png)
 
 
 Con esto realizado vamos a lanzar el proyecto. Para ello lanzamos el siguiente comando dentro del directorio del proyecto.
@@ -36,11 +36,11 @@ Con esto realizado vamos a lanzar el proyecto. Para ello lanzamos el siguiente c
 mvn clean install
 ```
 
-![05-mvn-install](05-mvn-install.png)
+![05-mvn-install](capturas/05-mvn-install.png)
 
 
 
-![06-mvn-install-02](06-mvn-install-02.png)
+![06-mvn-install-02](capturas/06-mvn-install-02.png)
 
 
 Ahora vamos a probar si la aplicación funciona ejecutándola en modo local.
@@ -48,17 +48,17 @@ Ahora vamos a probar si la aplicación funciona ejecutándola en modo local.
 mvn clean jetty:run
 ```
 
-![07-jetty](07-jetty.png)
+![07-jetty](capturas/07-jetty.png)
 
 
 Y lo comprobamos
 
-![08-jetty-comprobacion](08-jetty-comprobacion.png)
+![08-jetty-comprobacion](capturas/08-jetty-comprobacion.png)
 
 
 Paramos de ejecutar la aplicación.
 
-![09-jetty-parar](09-jetty-parar.png)
+![09-jetty-parar](capturas/09-jetty-parar.png)
 
 
 
@@ -72,25 +72,25 @@ Con esto, para poder crear el cluster lanzamos el siguiente comando:
 docker-composer up
 ```
 
-![10-dockerCompose-up](10-dockerCompose-up.png)
+![10-dockerCompose-up](capturas/10-dockerCompose-up.png)
 
 
 Comprobamos con docker los contenedores desplegados.
 
-![11-docker-ps-a](11-docker-ps-a.png)
+![11-docker-ps-a](capturas/11-docker-ps-a.png)
 
 
 Luego comprobamos accediendo al puerto con localhost:8080 y localhost:8081 en un navegador.
 
-![12-wildfly1](12-wildfly1.png)
+![12-wildfly1](capturas/12-wildfly1.png)
 
 
-![13-wildfly2](13-wildfly2.png)
+![13-wildfly2](capturas/13-wildfly2.png)
 
 
 Y luego añadimos /web-app-demo para acceder a la aplicación.
 
-![14-app-8080](14-app-8080.png)
+![14-app-8080](capturas/14-app-8080.png)
 
 
-![15-app-8081](15-app-8081.png)
+![15-app-8081](capturas/15-app-8081.png)
