@@ -12,4 +12,6 @@ Repositorio que se va a usar para ver como Instalar y trabajar con Docker.
 
 ## 5 [Guía 05 - Infraestructura LAMP con Docker](infraestructura_LAMP_docker/infraestructura_LAMP_docker.md)
 
+## 6 [Guía 06 - Creacion Servicio REST con WildFly](servicio-rest-wildfly-clusterizado/servicio-rest-wildfly-clusterizado.md)
+
 
