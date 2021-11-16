@@ -14,4 +14,7 @@ Repositorio que se va a usar para ver como Instalar y trabajar con Docker.
 
 ## 6 [Guía 06 - Creacion Servicio REST con WildFly](servicio-rest-wildfly-clusterizado/servicio-rest-wildfly-clusterizado.md)
 
+## 7 [Guía 07 - Dockerizando Node.js](dockerizando-nodeJs/dockerizando-nodeJs.md)
+
+
 
