@@ -1,5 +1,5 @@
 
-# Construccion de un servicio de empresa
+# Construcción de un servicio de empresa
 
 ## 1. Introducción.
 En esta guiá vamos a ver como preparar y configurar un entorno para un empresa usando Docker. Este entrono esta formado por una pagina web, una base de datos y un servicio sftp.
